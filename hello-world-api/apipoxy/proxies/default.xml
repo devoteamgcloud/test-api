@@ -1,21 +1,14 @@
-<ProxyEndpoint name="default">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="default">
   <PreFlow name="PreFlow">
     <Request/>
-    <Response>
-      <Step>
-        <Name>AM-helloworld</Name>
-      </Step>
-    </Response>
+    <Response/>
   </PreFlow>
-  <Flows/>
   <PostFlow name="PostFlow">
     <Request/>
     <Response/>
   </PostFlow>
-  <HTTPProxyConnection>
-    <BasePath>/hello-world</BasePath> <!-- BasePath updated to root -->
-  </HTTPProxyConnection>
-  <RouteRule name="default">
-    <TargetEndpoint>default</TargetEndpoint>
-  </RouteRule>
-</ProxyEndpoint>
+  <HTTPTargetConnection>
+    <URL>https://34.8.238.109.nip.io</URL>
+  </HTTPTargetConnection>
+</TargetEndpoint>
