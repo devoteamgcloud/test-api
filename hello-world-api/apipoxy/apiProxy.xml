@@ -1,11 +1,14 @@
-<APIProxy revision="1" name="hello-world">
-  <DisplayName>Hello World API</DisplayName>
-  <Description>A simple API that returns 'Hello, World!'</Description>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="hello-world">
+  <DisplayName/>
+  <Description>Hello World</Description>
+  <CreatedAt>1688468237772</CreatedAt>
+  <LastModifiedAt>1688468237772</LastModifiedAt>
+  <BasePaths>/hello-world</BasePaths>
   <Policies>
     <Policy>AM-helloworld</Policy>
   </Policies>
   <ProxyEndpoints>
     <ProxyEndpoint>default</ProxyEndpoint>
   </ProxyEndpoints>
-  <TargetEndpoints/>
 </APIProxy>
