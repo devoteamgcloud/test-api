@@ -1,0 +1,11 @@
+<APIProxy revision="1" name="hello-world">
+  <DisplayName>Hello World API</DisplayName>
+  <Description>A simple API that returns 'Hello, World!'</Description>
+  <Policies>
+    <Policy>AM-helloworld</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints/>
+</APIProxy>
