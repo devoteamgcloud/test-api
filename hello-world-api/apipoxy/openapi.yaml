@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Hello World API
+  description: A simple API that routes requests to the target URL.
+  version: 1.0.0
+
+servers:
+  - url: https://34.8.238.109.nip.io
+
+paths:
+  /hello-world:
+    get:
+      summary: Get Hello World message
+      description: Routes to the configured target endpoint.
+      responses:
+        '200':
+          description: Successful response
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Hello World
